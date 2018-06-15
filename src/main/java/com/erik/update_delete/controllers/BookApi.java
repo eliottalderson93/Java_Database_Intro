@@ -13,7 +13,6 @@ import com.erik.update_delete.services.BookService;
 @RestController
 public class BookApi {
 	private final BookService bookService;
-	
 	public BookApi(BookService bookService) {
 		this.bookService = bookService;
 	}

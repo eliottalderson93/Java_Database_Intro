@@ -19,6 +19,8 @@ public class BookService {
     }
     // creates a book
     public Book createBook(Book b) {
+    	System.out.print("creating book: ");
+    	System.out.println(b.getTitle());
         return bookRepo.save(b);
     }
     // retrieves a book
